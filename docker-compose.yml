@@ -2,7 +2,7 @@ version: '3'
 
 services:
  formulari:
-  image: formulari:1.0
+  image: formulari:2.0
   expose:
    - "80"
   environment:
