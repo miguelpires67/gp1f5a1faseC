@@ -28,6 +28,8 @@
 
 				echo "<h2>Resultados para $nombre</h2>";
 				echo "<p>Nota: " . number_format($nota_final, 1) . "</p>";
+				echo "<br>";
+				echo date("l jS \of F Y h:i:s A") . "<br>";
 			}
 		?>
 	</body>
